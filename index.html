@@ -1,0 +1,95 @@
+---
+title: Home
+menu_order: 1
+---
+<div class="row" id="home-top">
+  <div class="col-lg-6">
+    <img id="home-logo" src="images/d3l.png">
+    <div id="home-name">
+      <span class="acronym-letter">D</span>econstructing<br>
+      <span class="acronym-letter">D</span>istributed<br>
+      <span class="acronym-letter">D</span>eep
+      <span class="acronym-letter">L</span>earning
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="postit">
+      Our project develops performance models and scheduling
+      algorithms for distributed deep learning jobs.  We analyze the
+      incentives for federations of datacenters with different
+      resource affinities to this type of job. Key research results
+      are put into practice through Kubernetes and TensorFlow.
+    </div>
+  </div>
+</div>
+<div class="row" id="home-desc">
+  <div class="col-lg-4">
+    <h2>Motivation</h2>
+    <p>
+      While machine learning frameworks (such as TensorFlow, PyTorch
+      or Caffe) ease the development of DNNs and training jobs, they
+      do not assist the user in provisioning and sharing cloud
+      resources, or in the integration of DNN training workloads into
+      existing datacenters.
+    </p>
+    <p>
+      In fact, most users need to try different configurations of a
+      job (e.g., number of server/worker nodes, mini-batch size,
+      network capacity) to check the resulting training performance
+      (e.g., throughput measured as examples/second).
+    </p>
+    <p>
+      At scale, when resources must be shared among hundreds of jobs,
+      this approach quickly becames unfeasible.  At a larger scale,
+      when multiple datacenters need to manage deep learning
+      workloads, different degrees of <i>affinity</i> of their
+      resources create economic incentives to collaborate, as in
+      <i>cloud federations</i>.
+    </p>
+  </div>
+  <div class="col-lg-4">
+    <h2>Research Plan</h2>
+    <p>
+      Our approach will develop models to predict metrics (such as
+      training throughput) needed to guide the allocation of job
+      resources.
+    </p>
+    <p>
+      Our project plans to design scheduling algorithms for parallel
+      jobs (such as as deep learning training jobs) and to evaluate
+      them in the field, running Kubernetes in clusters at USC and in
+      the cloud.
+    </p>
+    <p>
+      Workload characterization and strategic models of individual
+      datacenters will allow us to evaluate the incentives for their
+      cooperation.
+    </p>
+    <p>
+      This project is committed to diversity in research and
+      education, involving undergraduate and graduate students,
+      coupled with an existing extensive K-12 outreach effort. Our
+      experimental testbed will support both research and education at
+      USC.
+    </p>
+  </div>
+  <div class="col-lg-4 ">
+    <h2>News</h2>
+    <ul>
+      <li>Aug. 4, 2018: NSF awarded the 3-year CCF-1816887 grant to our project.</li>
+      <li>Sep. 28, 2018: Our work on performance analysis and
+        scheduling of
+        <a href="http://www-bcf.usc.edu/~paolieri/papers/2018_mascots_sgd_tensorflow_scheduling.pdf">asynchronous SGD</a>
+        was presented at MASCOTS.
+      </li>
+      <li>Oct. 1, 2018: Official start date of our NSF project.</li>
+    </ul>
+    <p>
+    <p class="text-center mt-5">
+      <img src="/images/nsf.png" class="mb-2"><br>
+      Project supported by the<br>
+      <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1816887&HistoricalAwards=false">NSF CCF-1816887</a>
+      award
+    </p>
+  </div>
+</div>

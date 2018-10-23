@@ -1,0 +1,31 @@
+title: USC D3L Research Project
+email: paolieri@usc.edu
+description: Deconstructing Distributed Deep Learning
+baseurl: ""
+url: "https://d3l.usc.edu"
+github_username:  usc-d3l
+
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-octicons
+#  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+timezone: America/Los_Angeles
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
