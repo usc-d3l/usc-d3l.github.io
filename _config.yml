@@ -12,13 +12,17 @@ plugins:
 #  - jekyll-feed
 
 exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
   - Gemfile
   - Gemfile.lock
-  - node_modules
+  - node_modules/
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - node_modules
 
 timezone: America/Los_Angeles
 
