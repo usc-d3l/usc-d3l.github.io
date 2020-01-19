@@ -3,6 +3,14 @@ title: Publications
 menu_order: 4
 ---
 {: .year }
+2019
+
+{: .papers}
+- Zhuojin Li, Wumo Yan, Marco Paolieri, Leana Golubchik:<br>
+  [Throughput Prediction of Asynchronous SGD in TensorFlow](https://arxiv.org/abs/1911.04650)<br>
+  CoRR abs/1911.04650 (2019) | Accepted for publication at ICPE 2020
+
+{: .year }
 2018
 
 {: .papers}
